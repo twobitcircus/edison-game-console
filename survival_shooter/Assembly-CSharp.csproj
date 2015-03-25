@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F910185A-1EB9-6A3E-4FA4-745B0B4BEC6A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Authentication\Credentials.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Authentication\Digest.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Authentication\DigestStore.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheFileInfo.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheFileLock.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheMaintananceParams.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheService.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Cookies\Cookie.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Cookies\CookieJar.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\CRC32.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\Deflate.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\DeflateStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\GZipStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\InfTree.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\Inflate.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\ZTree.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\Zlib.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\ZlibBaseStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\ZlibCodec.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\ZlibConstants.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Decompression\ZlibStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Extensions\Extensions.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Extensions\HeartbeatManager.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Extensions\KeyValuePair.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Extensions\KeyValuePairList.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Extensions\WWWAuthenticateHeaderParser.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\HTTPFieldData.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\HTTPFormBase.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\HTTPFormUsage.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\Implementations\HTTPMultiPartForm.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\Implementations\HTTPUrlEncodedForm.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Forms\Implementations\UnityForm.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPConnection.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPConnectionStates.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPManager.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPMethods.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPProtocolFactory.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPProxy.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPRange.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPRequest.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPRequestStatus.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPResponse.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\HTTPUpdateDelegator.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\JSON\JSON.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Logger\DefaultLogger.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Logger\ILogger.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\Cryptography\MD5CryptoServiceProvider.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\Directory.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\File.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileEnums.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileHelper.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\Infos.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\PlatformSupport\Threading\Thread.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Proxy\HTTPProxyResponse.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Enums.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Error.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventDescriptor.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventNames.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventTable.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\HandshakeData.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Interfaces.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\JsonEncoders\DefaultJSonEncoder.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\JsonEncoders\IJSonEncoder.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Packet.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Socket.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\SocketManager.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\SocketOptions.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\ITransport.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\PollingTransport.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\WebSocketTransport.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\Statistics\Statistics.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameReader.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameTypes.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameWriters.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\BestHTTP\WebSocket\WebSocketResponse.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\AssetBundleSample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\CacheMaintenanceSample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\CodeBlocks.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\GUIHelper.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LargeFileDownloadSample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonData.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonException.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonMockWrapper.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\Lexer.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\SampleSelector.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\SocketIO Json Encoders\JsonDotNetEncoder.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\SocketIO Json Encoders\LitJsonEncoder.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\SocketIOChatSample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\SocketIOWePlaySample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\TextureDownloadSample.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\UploadStream.cs" />
+     <Compile Include="Assets\Best HTTP (Pro)\Examples\WebSocketSample.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\MobileInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\PauseManager.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\NewWebSocketClient.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
+     <Compile Include="Assets\Scripts\WebSocketClient.cs" />
+     <Compile Include="Assets\TestWS.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyAttack.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyMovement.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\BeautyShot.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomAnimationPoint.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\RandomParticlePoint.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Helpers\VolumeHandler.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\EnemyManager.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\GameOverManager.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Managers\ScoreManager.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\_CompletedAssets\Scripts\Player\PlayerShooting.cs" />
+     <Compile Include="Assets\wstest.cs" />
+     <Compile Include="Assets\wstest2.cs" />
+     <None Include="Assets\Shaders\Rim Lit Bumped Specular.shader" />
+     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\Best HTTP (Pro)\link.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/egradman/dev/intel_pr2/intel_edison_unity3d_game/IntelEdisonUnity3D-SurvivalShooterGame/Assets/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TcpClientImplementation">
+ <HintPath>/Users/egradman/dev/intel_pr2/intel_edison_unity3d_game/IntelEdisonUnity3D-SurvivalShooterGame/Assets/Plugins/TcpClientImplementation.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

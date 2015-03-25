@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 39c0cc3423d063c4db4ce453eb374740
+labels:
+- http
+- www
+- web
+- cache
+- stream
+- wp8
+- wsa
+- metro
+- rest
+- api
+- socket
+- socket.io
+- websocket
+- websockets
+- cookie
+- proxy
+- il2cpp
+- android
+- tcp
+- https
+- ios
+- webrequest
+MonoAssemblyImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  userData: 
