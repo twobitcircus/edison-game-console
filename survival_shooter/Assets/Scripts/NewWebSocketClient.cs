@@ -28,6 +28,12 @@ public class NewWebSocketClient : MonoBehaviour {
 
   // Use this for initialization
   void Start () {
+
+    if (Application.isWebPlayer) {
+      Uri uri = new Uri(Application.absoluteURL);
+      host = uri.Host;
+    }
+
     address  = "ws://"+host+":"+port+"/";
 
     Debug.Log("starting " + address);
